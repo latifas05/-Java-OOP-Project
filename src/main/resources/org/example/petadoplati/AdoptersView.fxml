@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="646.0" prefWidth="888.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23" fx:controller="org.example.petadoplati.AdoptersController">
+    <children>
+        <TableView fx:id="adoptersTableView" prefHeight="542.0" prefWidth="888.0">
+            <columns>
+                <TableColumn fx:id="idColumn" prefWidth="100" text="ID" />
+                <TableColumn fx:id="nameColumn" prefWidth="300" text="Name" />
+                <TableColumn fx:id="contactColumn" prefWidth="200" text="Contact" />
+            </columns>
+        </TableView>
+        <Button fx:id="goToHomeButton" layoutX="14.0" layoutY="570.0" onAction="#handleGoToHome" text="Go to Home" />
+    </children>
+</AnchorPane>
